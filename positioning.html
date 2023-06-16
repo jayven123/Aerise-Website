@@ -1,0 +1,544 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aerise Pte Ltd</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/aerise logo.jpg"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aircraft.html">AIRCRAFTS</a></li>
+                    <li><a href="course.html">COURSES</a></li>
+                    <li><a href="shop.html">SHOP</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+           
+    </section>
+    
+<!----------crazyflie positioning page ---------->
+<section>
+    <div class="container">
+
+        <div class="header2">
+            <h2><strong>Products</strong></h2>
+        </div>
+        <fieldset style="width: 650px; margin: 0px auto;">
+            <legend>Explore the different kinds of products we offer!</legend>
+            <a href='shop.html'><button id="visit_return_button" type="submit">Holybro</button></a>
+            <a href='crazyflie.html'><button id="visit_return_button" type="submit" >Crazyflie</button></a>
+           
+            
+            <a href='meta.html'><button id="visit_return_button" type="submit">METAS</button></a><br><br>
+            <a href=decks.html><button id="visit_return_button" type="submit">Crazyflie Decks</button></a>
+            <a href=positioning.html><button id="visit_return_button_2" type="submit">Crazyflie Positioning</button></a>
+            <a href="accessories.html"><button id="visit_return_button_2" type="submit">Crazyflie Accessories</button></a>
+             </fieldset>
+
+        <div class="products">
+            
+            <div class="product">
+                <div class="image">
+                    <img src="images/active marker deck.png" width="550" height="245">
+                </div>
+                <div class="namePrice">
+                    <h3>Active Marker Deck</h3>
+                </div>
+                <p><b>Features</b><br><br>
+                    -Together with Qualisys QTM each LED can use a separate ID<br><br>
+-Each marker LED can be turned on/variable power/off<br><br>
+-Robust and long range tracking<br><br>
+-The arms can be cut and extended with wires to locate the marker LEDs in other positions<br><br>
+<b>Specifications</b><br><br>
+-STM32F034G MCU<br><br>
+-IR receiver (38kHz carrier)<br><br>
+-4 x high power IR LEDs (850 nm)<br><br>
+-SWD connector (compatible with <a href='https://store.bitcraze.io/collections/accessories/products/debug-adapter' target="_blank"><strong> Debug adapter</strong>)</a><br><br>
+-Compatible with Qualisys QTM V2019.3+<br><br>
+<b>Mechanical Specifications</b><br><br>
+-Weight: 3.1 g<br><br>
+-Size (WxHxD): 75x75x5 mm<br><br>
+-Designed for mounting under the Crazyflie product family<br><br>
+<b>Compatibility</b><br><br>
+<a href='https://www.bitcraze.io/documentation/system/platform/cf2-expansiondecks/#compatibility-matrixes' target="_blank"><strong>-See Compatibility Matrix</strong></a><br><br>
+<b>Package Content</b><br><br>
+-1 x Active Marker Deck<br><br>
+<b>Resources</b><br><br>
+<a href='https://www.bitcraze.io/documentation/start/' target="_blank"><strong>-Start here</strong><br><br></a>
+<a href='https://www.bitcraze.io/buy/buyers-guide/' target="_blank"><strong>-Buyers guide</strong><br><br></a>
+<a href='https://www.bitcraze.io/development/development-overview/' target="_blank"><strong>-Development</strong><br><br></a>
+<a href='https://www.bitcraze.io/support/f-a-q/' target="_blank"><strong>-FAQ</strong><br><br></a>
+<a href='https://www.bitcraze.io/support/getting-help/' target="_blank"><strong>-Getting help</strong><br><br></a>
+<a href='https://www.bitcraze.io/documentation/hardware/active_marker_deck/active_marker_deck-datasheet.pdf' target="_blank"><strong>-Datasheet</strong><br><br></a>
+<a href='https://www.bitcraze.io/documentation/hardware/active_marker_deck/active-marker-deck_revd.pdf' target="_blank"><strong>-Schematics</strong><br><br></a>
+<a href='https://store.bitcraze.io/products/active-marker-deck?_pos=1&_sid=157cefc4d&_ss=r' target="_blank"><strong>-Web page</strong><br><br></a>
+                </p>
+                
+            
+                <div class="buy">
+                    <a href='contact.html'><button> Buy now </button></a>
+                </div>
+</div>
+
+
+<div class="product">
+    <div class="image">
+        <img src="images/Lighthouse pos deck.png" width="200" height="185">
+    </div>
+    <div class="namePrice">
+        <h3>Lighthouse Positioning Deck</h3>
+       
+    </div>
+    <p><b>Features</b><br><br>
+        -High accuracy positioning<br><br>
+        -Supports <a href='https://www.vive.com/us/accessory/base-station/' target="_blank"><strong>HTC Vive Base Station</strong></a> and  <a href='https://www.vive.com/eu/accessory/base-station2/' target="_blank"><strong>SteamVR Base Station 2.0</strong></a><br><br>
+        -On-board FPGA for signal processing with open source toolchain<br><br>
+        -UART and I2C communication to Crazyflie deck expansion port<br><br>
+        -UART pads available to solder a 2.54mm pin header for connection to external system, eg. Arduino<br><br>
+        -UART and I2C bootloader to program the FPGA configuration<br><br>
+        <b>Specifications</b><br><br>
+        -<a href='https://www.latticesemi.com/Products/FPGAandCPLD/iCE40UltraPlus' target="_blank"><strong>ICE40UP5K</strong></a>  FPGA for signal processing<br><br>
+-1-wire memory for automatic expansion deck detection<br><br>
+-4 <a href='https://triadsemi.com/steamvr-tracking/' target="_blank"><strong>TS4231</strong></a> IR receivers<br><br>
+<b>Mechanical Specifications</b><br><br>
+-Weight: 2.7g<br><br>
+-Size (WxHxD): 27x35x3.5mm<br><br>
+-Designed for mounting on top of the Crazyflie 2.X<br><br>
+<b>Compatibility</b><br><br>
+<a href='https://www.bitcraze.io/documentation/system/platform/cf2-expansiondecks/#compatibility-matrixes' target="_blank"><strong>-See Compatibility Matrix</strong></a><br><br>
+<b>Package Content</b><br><br>
+-1 x Lighthouse Positioning Deck<br><br>
+
+
+        
+<b>Resources</b><br><br>
+
+<a href='https://www.bitcraze.io/documentation/start/' target="_blank"><strong>-Start here</strong><br><br></a>
+<a href='https://www.bitcraze.io/buy/buyers-guide/' target="_blank"><strong>-Buyers guide</strong><br><br></a>
+<a href='https://www.bitcraze.io/development/development-overview/' target="_blank"><strong>-Development</strong><br><br></a>
+<a href='https://www.bitcraze.io/support/f-a-q/' target="_blank"><strong>-FAQ</strong><br><br></a>
+<a href='https://www.bitcraze.io/support/getting-help/' target="_blank"><strong>-Getting help</strong><br><br></a>
+<a href='https://www.bitcraze.io/documentation/hardware/lighthouse_deck/lighthouse_deck-datasheet.pdf' target="_blank"><strong>-Datasheet</strong><br><br></a>
+<a href='https://www.bitcraze.io/documentation/hardware/lighthouse_deck/lighthouse_deck-revd.pdf' target="_blank"><strong>-Schematics</strong><br><br></a>
+<a href='https://www.bitcraze.io/products/lighthouse-positioning-deck/' target="_blank"><strong>-Web page</strong><br><br></a>
+
+                        
+    
+    </p>
+    
+
+    <div class="buy">
+        <a href='contact.html'><button> Buy now </button></a>
+    </div>
+    </div>
+                   
+            
+
+                <div class="product">
+                    <div class="image">
+                        <img src="images/lighthouse v2 base station.png" width="auto" height="225">
+                    </div>
+                    <div class="namePrice">
+                        <h3>Lighthouse V2 Base Station</h3>
+
+                       
+                    </div>
+                    <p><b>Features</b><br><br>
+                        -Enables on-board positioning for the Crazyflie<br><br>
+                        -1/4' standard attachment<br><br>
+                        -3 meter power chord<br><br>
+                        -Wall mount<br><br>
+                        <b>Specifications</b><br><br>
+                        -Max range: 5 meters<br><br>
+-Contains SteamVR Base Station 2.0 (V003450-00-A)<br><br>
+<b>Mechanical Specifications</b><br><br>
+Basestation<b>:</b><br><br>
+1/4' mounting screw in bottom and back of the base station<br><br>
+Weight: 266g<br><br>
+Size (WxHxD): 80x74x63mm<br><br>
+Power adapter<b>:</b><br><br>
+3 meter chord<br><br>
+Power plug adapters for EU/US/UK/JP/AU<br><br>
+Weight: 240g<br><br>
+Size (WxHxD): 40x64x34mm (without cable and plug)<br><br>
+Wall mount<b>:</b><br><br>
+Height: 10 cm<br><br>
+Base diameter: 5,7 cm<br><br>
+Weight: 44 g<br><br>
+<b>Package Contents</b><br><br>
+-1 x SteamVR Base Station 2.0<br><br>
+-1 x 12V DC adapter with 3 meter cord (including adapters for US/EU/JP/UK/AU)<br><br>
+-1 x Wall mount with 1/4' mounting screw including screws for attachment to the wall<br><br>
+
+
+
+
+                    </p>
+                    
+    <div class="buy">
+        <a href='contact.html'><button> Buy now </button></a>
+    </div>
+    </div>
+                    
+                        
+
+                    
+                    
+                    
+                
+                   
+                <div class="product">
+                    <div class="image_2">
+                        <img src="images/LOCO pos deck.png" width="200" height="225">
+                    </div>
+                    <div class="namePrice">
+                        <h3 class="top-heading_4">Loco Positioning Deck</h3>
+                       
+                    </div>
+                    <p><b>Features</b><br><br>
+                        -Measures distances to Loco Positioning Node Anchors<br><br>
+-4 status LEDs<br><br>
+<b>Electrical Specifications</b><br><br>
+-Based on the Decawave DWM1000 module<br><br>
+-Implements IEEE 802.15.4 UWB<br><br>
+-1-wire memory for automatic expansion deck detection<br><br>
+<b>Ranging Specifications</b><br><br>
+-Ranging accuracy ±10 cm according to DWM1000 spec. See <a href='https://wiki.bitcraze.io/misc:investigations:lps-precision' target="_blank"><strong>the wiki</strong></a> for measurements.<br><br>
+-Maximum tested range 10 m<br><br>
+-Ranging rate 500 Hz, shared over all anchors. Around 80Hz per anchor with 6 anchors<br><br>
+<b>Radio Specifications</b><br><br>
+-Operates at 3.2 - 7 GHz<br><br>
+-Channel bandwidth 500 MHz<br><br>
+<b>Power Consumption</b><br><br>
+-Max 150 mA, depends on operation mode and configuration<br><br>    
+-Crazyflie 2.X flight time with deck 6 minutes<br><br>
+<b>Mechanical Specifications</b><br><br>
+-Weight: 3.3 g<br><br>
+-Size (WxHxD): 28x35x4 mm<br><br>
+-Designed for mounting above or under the Crazyflie 2.X<br><br>
+<b>Compatibility</b><br><br>
+<a href='https://www.bitcraze.io/documentation/system/platform/cf2-expansiondecks/#compatibility-matrixes' target="_blank"><strong>-See Compatibility Matrix</strong></a><br><br>
+-Loco Positioning Nodes<br><br>
+<b>Package Content</b><br><br>
+-1 x Loco Positioning Deck<br><br>
+<b>Resources</b><br><br>
+<a href='https://www.bitcraze.io/documentation/system/positioning/loco-positioning-system/' target="_blank"><strong>-Loco Positioning System</strong><br><br></a>
+<a href='https://www.bitcraze.io/documentation/start/' target="_blank"><strong>-Start here</strong><br><br></a>
+            <a href='https://www.bitcraze.io/buy/buyers-guide/' target="_blank"><strong>-Buyers guide</strong><br><br></a>
+            <a href='https://www.bitcraze.io/development/development-overview/' target="_blank"><strong>-Development</strong><br><br></a>
+            <a href='https://www.bitcraze.io/support/f-a-q/' target="_blank"><strong>-FAQ</strong><br><br></a>
+            <a href='https://www.bitcraze.io/support/getting-help/' target="_blank"><strong>-Getting help</strong><br><br></a>
+            <a href='https://www.bitcraze.io/documentation/tutorials/getting-started-with-loco-positioning-system/' target="_blank"><strong>-Getting Started With The Loco Positioning System</strong><br><br></a>
+            <a href='https://www.bitcraze.io/documentation/hardware/loco_deck/loco_deck-datasheet.pdf' target="_blank"><strong>-Datasheet</strong><br><br></a>
+            <a href='https://www.bitcraze.io/documentation/hardware/loco_deck/loco_deck_revd.pdf' target="_blank"><strong>-Schematics</strong><br><br></a>
+            <a href='https://www.bitcraze.io/products/loco-positioning-deck/' target="_blank"><strong>-Web page</strong><br><br></a>
+
+
+
+                        
+                    </p>
+                   
+                    
+                
+                    <div class="buy">
+                        <a href='contact.html'><button> Buy now </button></a>
+                    </div>
+                    
+                    </div>
+
+
+
+
+                    <div class="product">
+                        <div class="image_2">
+                            <img src="images/loco pos node.png" width="200" height="225">
+                        </div>
+                        <div class="namePrice">
+                            <h3>Loco Positioning Node</h3>
+                           
+                        </div>
+                        <p><b>Features</b><br><br>
+                            -Supports Anchor and Sniffer mode, as well as a limited TWR Tag mode (no position estimation)<br><br>
+                            -Can be used as a standalone system with some Nodes acting as Anchors and one Node acting as a Tag reporting distances to the Anchors.<br><br>
+                            -Multiple powering options<br><br>
+                            -On board MCU<br><br>
+                            <b>Electrical Specification</b><br><br>
+                            -Based on the Decawave DWM1000 module<br><br>
+-Implements IEEE 802.15.4 UWB<br><br>
+-STM32F072 MCU (Cortex-M0, 48MHz, 16kb SRAM, 128kb flash)<br><br>
+-High precision pressure sensor (LPS25H)<br><br>
+-uUSB connector<br><br>
+-Full speed USB device interface<br><br>
+-Powered by USB, 6 mm barrel jack (5 - 12V) or screw terminal (5 - 12V)<br><br>
+-FTDI debug port (not populated)<br><br>
+-Serial connector compatible with ESP8266 module (not populated)<br><br>
+-Power consumption 180 mA max<br><br>
+<b>Ranging Specification</b><br><br>
+-Ranging accuracy ±10 cm according to DWM1000 spec. See the wiki for measurements.<br><br>
+-Maximum tested range 10 m<br><br>
+-Nr of anchors required: theoretical minimum of 4 for 3D positioning. More anchors adds redundancy and accuracy, up to 8 supported.<br><br>
+<b>Radio Specification</b><br><br>
+Operates at 3.2 - 7 GHz<br><br>
+Channel bandwidth 500 MHz<br><br>
+<b>Mechanical Specification</b><br><br>
+-Weight: 13.3 g<br><br>
+-Size (WxHxD): 65x40x13 mm<br><br>
+-4 mounting holes for M3 screws<br><br>
+<b>Compatibility</b><br><br>
+-Works with the Loco Positioning Deck<br><br>
+<b>Package Contents</b><br><br>
+-1 x Loco Positioning Node<br><br>
+<b>Resources</b><br><br>
+<a href='https://www.bitcraze.io/documentation/start/' target="_blank"><strong>-Start here</strong><br><br></a>
+            <a href='https://www.bitcraze.io/buy/buyers-guide/' target="_blank"><strong>-Buyers guide</strong><br><br></a>
+            <a href='https://www.bitcraze.io/development/development-overview/' target="_blank"><strong>-Development</strong><br><br></a>
+            <a href='https://www.bitcraze.io/support/f-a-q/' target="_blank"><strong>-FAQ</strong><br><br></a>
+            <a href='https://www.bitcraze.io/support/getting-help/' target="_blank"><strong>-Getting help</strong><br><br></a>
+            <a href='https://www.bitcraze.io/documentation/tutorials/getting-started-with-loco-positioning-system/' target="_blank"><strong>-Getting Started With The Loco Positioning System</strong><br><br></a>
+            <a href='https://www.bitcraze.io/documentation/hardware/loco_node/loco_node-datasheet.pdf' target="_blank"><strong>-Datasheet</strong><br><br></a>
+            <a href='https://www.bitcraze.io/documentation/hardware/loco_node/loco_node_reve.pdf' target="_blank"><strong>-Schematics</strong><br><br></a>
+            <a href='https://www.bitcraze.io/products/loco-positioning-node/' target="_blank"><strong>-Web page</strong><br><br></a>
+
+
+
+
+    
+    
+    
+                            
+                        </p>
+                       
+                        
+                    
+                        <div class="buy">
+                            <a href='contact.html'><button> Buy now </button></a>
+                        </div>
+                        
+                        </div>
+
+            
+
+                        <div class="product">
+                            <div class="image_2">
+                                <img src="images/mocap marker deck.png" width="300" height="225">
+                            </div>
+                            <div class="namePrice">
+                                <h3 class="top-heading_11">Motion Capture Marker Deck</h3>
+                               
+                            </div>
+                            <p><b>Features</b><br><br>
+                                -35 marker mount holes (​M3) with 5 mm spacing<br><br>
+-Solder pads for 2 buttons connected to I/Os on Crazyflie 2.X<br><br>
+<b>Mechanical Specifications</b><br><br>
+-Weight: 1.6 g<br><br>
+-Size (WxHxD): 65x3x65 mm<br><br>
+<b>Compatibility</b><br><br>
+<a href='https://www.bitcraze.io/documentation/system/platform/cf2-expansiondecks/#compatibility-matrixes' target="_blank"><strong>-See Compatibility Matrix</strong></a><br><br>
+<b>Package Content</b><br><br>
+-1 x Motion Capture Marker Deck<br><br>
+<b>Resources</b><br><br>
+<a href='https://www.bitcraze.io/documentation/start/' target="_blank"><strong>-Start here</strong><br><br></a>
+            <a href='https://www.bitcraze.io/buy/buyers-guide/' target="_blank"><strong>-Buyers guide</strong><br><br></a>
+            <a href='https://www.bitcraze.io/development/development-overview/' target="_blank"><strong>-Development</strong><br><br></a>
+            <a href='https://www.bitcraze.io/support/f-a-q/' target="_blank"><strong>-FAQ</strong><br><br></a>
+            <a href='https://www.bitcraze.io/support/getting-help/' target="_blank"><strong>-Getting help</strong><br><br></a>
+            <a href='https://www.bitcraze.io/products/motion-capture-marker-deck/' target="_blank"><strong>-Web page</strong><br><br></a>
+                                
+        
+        
+        
+                                
+                            </p>
+                           
+                            
+                        
+                            <div class="buy">
+                                <a href='contact.html'><button> Buy now </button></a>
+                            </div>
+                            
+                            </div>
+        
+
+
+
+
+
+
+                            <div class="product">
+                                <div class="image_2">
+                                    <img src="images/reflective marker kit.png" width="200" height="225">
+                                </div>
+                                <div class="namePrice">
+                                    <h3 class="top-heading_12">Reflective Marker Kit 6.5mm</h3>
+                                   
+                                </div>
+                                
+                                <p class="text-align">
+                                    <b>Features</b><br><br>
+                                    -Super-spherical<br><br>
+                                    -Durable<br><br>
+                                    -Threaded<br><br>
+                                    <b>Mechanical Specification</b><br><br>
+                                    -Diameter: 6.5 mm<br><br>
+-Weight including plastic base: 0.2 g<br><br>
+-M3 threading<br><br>
+-Plastic base diameter: 10 mm<br><br>
+<b>Package Contents</b><br><br>
+-10 x 6.5 mm passive markers<br><br>
+-10 x plastic bases<br><br>
+
+
+            
+            
+                                    
+                                </p>
+                                
+                                
+                            
+                                <div class="buy">
+                                    <a href='contact.html'><button> Buy now </button></a>
+                                </div>
+                                
+                                </div>
+
+
+
+
+                                <div class="product">
+                                    <div class="image_2">
+                                        <img src="images/roadrunner.png" width="200" height="225">
+                                    </div>
+                                    <div class="namePrice">
+                                        <h3>Roadrunner</h3>
+                                       
+                                    </div>
+                                    <p><b>Features</b><br><br>
+                                        -Supports Tag mode<br><br>
+                                        -Based on the Crazyflie hardware and uses same code-base as the Crazyflie<br><br>
+                                        -3-axis accelerometer / gyroscope<br><br>
+                                        -Low latency 2.4 GHz radio that supports Bluetooth LE<br><br>
+                                        -5 - 12V power supply or micro-USB<br><br>
+                                        -Data communication via USB, UART, low latency 2.4 GHz radio or Bluetooth LE<br><br>
+                                        -Wireless firmware updates<br><br>
+                                        -Supports Crazyflie expansion decks<br><br>
+                                        -Supports Crazyflie libraries and clients<br><br>
+                                        <b>Electrical Specifications</b><br><br>
+                                        -Micro-USB connection for powering and full speed data communication<br><br>
+-4 position locking connector with<br><br>
+5 - 12V power supply<br><br>
+UART RX/TX for serial communication<br><br>
+-Power Consumption 240 mA (5V)<br><br>
+<b>Sensors</b><br><br>
+-3 axis accelerometer / gyroscope (BMI088)<br><br>
+<b>Microcontrollers</b><br><br>
+-STM32F405 main application MCU (Cortex-M4, 168MHz, 192kb SRAM, 1Mb flash)<br><br>
+-nRF51822 radio and power management MCU (Cortex-M0, 32Mhz, 16kb SRAM, 128kb flash)<br><br>
+-Full speed USB device interface<br><br>
+-Partial USB OTG capability (USB OTG present but no 5V output)<br><br>
+-8KB EEPROM<br><br>
+<b>Ranging specification</b><br><br>
+-Based on the Decawave DWM1000 module<br><br>
+-Implements IEEE 802.15.4 UWB<br><br>
+-Ranging accuracy ±10 cm according to DWM1000 spec. See <a href='https://wiki.bitcraze.io/misc:investigations:lps-precision' target="_blank"><strong>the wiki</strong></a> for measurements.<br><br>
+-Maximum tested system range 10 m. The Decawave DWM1000 module is specified to 300 m.<br><br>
+-Nr of anchors required: theoretical minimum of 4 for 3D positioning. More anchors add redundancy and accuracy.<br><br>
+<b>Radio Specification</b><br><br>
+-UltraWide band radio<br><br>
+Operates at 3.2 - 7 GHz<br><br>
+Channel bandwidth 500 MHz<br><br>
+-2.4 GHz radio<br><br>
+20 dBm radio amplifier<br><br>
+Bluetooth Low Energy support with iOS and Android clients available (tested on iOS 7.1+ and Android 4.4+)<br><br>
+External antenna using U.FL connector<br><br>
+<b>Expansion Connectors</b><br><br>
+-VCC (3.0V, max 100mA)<br><br>
+-GND<br><br>
+-VCOM (unregulated VBAT or VUSB, max 1A)<br><br>
+-VUSB (both for input and output)<br><br>
+-I2C (400kHz)<br><br>
+-SPI<br><br>
+-2 x UART<br><br>
+-4 x GPIO/CS for SPI<br><br>
+-1-wire bus for expansion identification<br><br>
+-2 x GPIO connected to nRF51<br><br>
+<b>Mechanical Specification</b><br><br>
+-Roadrunner PCBA<br><br>
+Weight: 9.6 g<br><br>
+Size (WxHxD): 35x11x77 mm<br><br>
+-Roadrunner PCBA with enclosure<br><br>
+Weight: 28.7 g<br><br>
+Size (WxHxD): 40x15x80 mm<br><br>
+<b>Compatibility</b><br><br>
+-Works with the Loco Positioning System<br><br>
+<b>Package Contents</b><br><br>
+-1 x Roadrunner PCBA<br><br>
+-1 x Enclosure box and 2 x screws<br><br>
+-2 x PCBA mounting screws<br><br>
+-1 x U.FL antenna with adhesive for mounting inside the enclosure<br><br>
+-1 x 4 position male connector with screw terminals <a href='https://katalog.we-online.de/em/datasheet/6913611000xx.pdf' target="_blank"><strong>(pdf)</strong></a><br><br>
+<b>Resources</b><br><br>
+<a href='https://www.bitcraze.io/documentation/start/' target="_blank"><strong>-Start here</strong><br><br></a>
+            <a href='https://www.bitcraze.io/buy/buyers-guide/' target="_blank"><strong>-Buyers guide</strong><br><br></a>
+            <a href='https://www.bitcraze.io/development/development-overview/' target="_blank"><strong>-Development</strong><br><br></a>
+            <a href='https://www.bitcraze.io/support/f-a-q/' target="_blank"><strong>-FAQ</strong><br><br></a>
+            <a href='https://www.bitcraze.io/support/getting-help/' target="_blank"><strong>-Getting help</strong><br><br></a>
+            <a href='https://www.bitcraze.io/documentation/hardware/roadrunner/roadrunner-datasheet.pdf' target="_blank"><strong>-Datasheet</strong><br><br></a>
+            <a href='https://www.bitcraze.io/documentation/hardware/roadrunner/roadrunner-revb.pdf' target="_blank"><strong>-Schematics</strong><br><br></a>
+            <a href='https://www.bitcraze.io/products/roadrunner/' target="_blank"><strong>-Web page</strong><br><br></a>
+                                
+    
+    
+                
+                
+                                        
+                                    </p>
+                                   
+                                    
+                                
+                                    <div class="buy">
+                                        <a href='contact.html'><button> Buy now </button></a>
+                                    </div>
+                                    
+                                    </div>
+            
+    
+
+
+
+
+
+           
+
+
+
+
+    </section>
+<!-------- footer ---------->
+
+
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>
